@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tvPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:layout_weight="0.20"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.70"
+        android:gravity="center_vertical" />
+
+    <ImageButton
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="71dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_clear_black_24dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnClearItem" />
+
+</LinearLayout>
