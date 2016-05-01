@@ -1,3 +1,5 @@
+// Wallace Kwan 
+
 package com.wallacekwan.randomizer;
 
 import android.content.DialogInterface;
